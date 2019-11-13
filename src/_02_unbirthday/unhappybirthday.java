@@ -8,10 +8,12 @@ public class unhappybirthday  {
 	String bday=JOptionPane.showInputDialog("when is your bday");
 	if(bday.equals("10/29")){
 	  JOptionPane.showMessageDialog(null,"happybday"); 
-	}else "un happy bday"{
+	}else {
 	JOptionPane.showMessageDialog(null,"un happy bday");
 	}
 	
 	
+
+}
 
 }
