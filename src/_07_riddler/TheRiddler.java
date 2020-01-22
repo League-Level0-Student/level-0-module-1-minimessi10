@@ -1,4 +1,7 @@
 package _07_riddler;
+
+import javax.swing.JOptionPane;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
@@ -7,18 +10,53 @@ package _07_riddler;
 public class TheRiddler {
 
 	public static void main(String[] args) {
+		
+		
+		int score=0;
 
-		// 1. Make a variable to hold the score
+		String answer = JOptionPane.showInputDialog("what do i have in my pocket?");
+		//JOptionPane
+if(answer.equals("nothing")) {
+ JOptionPane.showMessageDialog(null, "correct");
+ score++;
+}
+ else {
+	 JOptionPane.showMessageDialog(null,"wrong");
+		
+ }	
+		
+String david = JOptionPane.showInputDialog("What can you hold in your left hand but not in your right?");
+//JOptionPane
+if(david.equals("Your right elbow")) {
+JOptionPane.showMessageDialog(null, "correct");
+score++;
+}
+else {
+JOptionPane.showMessageDialog(null,"wrong");
 
-		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
+}	
 
-		// 4. If they got the answer right, pop up "correct!" and increase the score by one
+		
+		
 
-		// 5. Otherwise, say "wrong" and tell them the answer
+		
+	
 
-		// 6. Add some more riddles
 
-		// 2. Make a pop up to show the score.
+String daniel = JOptionPane.showInputDialog("Re-arrange the letters, O O U S W T D N E J R, to spell just one word. What is it??");
+//JOptionPane
+if(daniel.equals("just one word")) {
+JOptionPane.showMessageDialog(null, "correct");
+score++;
+}
+else {
+JOptionPane.showMessageDialog(null,"wrong");
+
+}	
+
+		
+		
+
 		
 	}
 }
