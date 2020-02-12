@@ -40,7 +40,14 @@ public class RobotInSpace implements KeyEventDispatcher {
 			rob.setAngle(180);
 			rob.microMove(1);
 		}
-	
+	if(keyPressed==37) {
+		rob.setAngle(-90);
+		rob.microMove(1);
+	}
+	if(keyPressed==39) {
+		rob.setAngle(90);
+		rob.microMove(1);
+	}
 	
 		
 		
