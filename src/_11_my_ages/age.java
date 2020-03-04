@@ -7,7 +7,7 @@ public class age {
 	
 	public static void main(String[] arg) {
 		for (int i = 0; i < 14 ; i++) {
-			   JOptionPane
+			JOptionPane.showMessageDialog(null, i);
 		}
 	}
 
