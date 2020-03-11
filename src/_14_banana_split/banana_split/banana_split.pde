@@ -15,4 +15,11 @@ void draw(){
   yposition+=10;
  }
   yposition=69;
+  for(int i=0;i<4; i++ ){
+  
+  
+  text("banna", 4, yposition);
+  yposition+=10;
+ }
+  yposition=60;
 }
